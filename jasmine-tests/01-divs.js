@@ -1,3 +1,11 @@
+describe('Resultado para divs: ', () => {
+  const div = document.getElementsByTagName('div');
+  it('Precisa conter 2 divs', () => {
+    expect(div).toBeDefined('Seu site nao possui um formulario');
+    expect(div.length).toBe(2, 'Seu site nao possui duas divs');
+  });
+});
+
 describe('Resultado para conteudo: ', () => {
   const div1 = document.getElementsByTagName('div')[0];
   const div2 = document.getElementsByTagName('div')[1];

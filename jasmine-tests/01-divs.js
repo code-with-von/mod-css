@@ -1,7 +1,7 @@
 describe('Resultado para divs: ', () => {
   const div = document.getElementsByTagName('div');
   it('Precisa conter 2 divs', () => {
-    expect(div).toBeDefined('Seu site nao possui um formulario');
+    expect(div).toBeDefined('Seu site nao inclui a tag <div>');
     expect(div.length).toBe(2, 'Seu site nao possui duas divs');
   });
 });
